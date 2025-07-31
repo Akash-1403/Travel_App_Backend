@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Akash-1403/Travel_App_Backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
