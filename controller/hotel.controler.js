@@ -26,7 +26,7 @@ export  const addHotelInDb = async (req,res)=>{
     try{
       await Hotel.deleteMany({});
       const hotelInDB = await Hotel.insertMany(hotels.data) ;
-      res.json(hotelInDB)
+      res.json(hotelInDB);
     }catch(err){
       console.log(err);
       res.json({message : "could not added to database"})

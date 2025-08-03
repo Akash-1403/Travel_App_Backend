@@ -13,8 +13,8 @@ import {getHotelData,addHotelInDb} from "../controller/hotel.controler.js"
 
 const router = express.Router();
 router.route("/")
-       .get(getHotelData)
        .post(addHotelInDb)
+       .get(getHotelData)
 //         .get(hotelController.getHotelData)
 //  .post(hotelController.addHotelInDb);
        
